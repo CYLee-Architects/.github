@@ -28,7 +28,7 @@ git merge upstream/dev
 
 ```
 
-2. **建立功能分支（推薦）**：儘管可以在個人 `dev` 修改，但建立獨立 Feature 分支能保持 commit 紀錄乾淨。
+2. **建立功能分支**：建立獨立 Feature 分支避免 squash 失敗。
 ```bash
 git checkout -b feature/login-page
 
